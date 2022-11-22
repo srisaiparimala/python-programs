@@ -1,0 +1,8 @@
+P=int(input ())
+Si=int(input ())
+T=int(input ())
+R=int(input ())
+Si=(P*T*R)/100
+Print (Si)
+EMI=(Principal amount+Si)/t*12
+Print (EMI)
