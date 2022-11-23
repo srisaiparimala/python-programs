@@ -1,0 +1,5 @@
+a=int(input ())
+if a%2==0 :
+ Print ('even no.')
+else :
+ Print ('odd no.')
