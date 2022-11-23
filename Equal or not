@@ -1,0 +1,6 @@
+a=int(input ())
+b=int(input ())
+if a==b :
+ Print ('equal')
+else :
+ print ('not equal')
