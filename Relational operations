@@ -1,0 +1,8 @@
+a=25
+b=29
+Print(a > b)
+Print (a < b)
+Print (a >= b)
+Print (a <= b)
+Print (a == b)
+Print (a != b)
