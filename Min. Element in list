@@ -1,0 +1,6 @@
+List=[1,4,7,9,6]
+min=list[-1]
+for i in list:
+ if i<min:
+   min=i
+  Print(min)
