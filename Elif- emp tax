@@ -1,0 +1,25 @@
+empno=89
+empname='ram'
+empdesig='tenth'
+basicsalary=40000
+da=3000
+ta=2000
+hra=8000
+netsalary=basicsalary+da+ta+hra
+print('tax:')
+if netsalary>100000:
+    tax=netsalary*10/100
+    print(tax)
+elif netsalary>50000: 
+    tax=netsalary*7/100
+    print(tax)
+elif netsalary>40000:
+    tax=netsalary*4/100
+    print(tax)
+elif netsalary>20000:
+    tax=netsalary*2/100
+    print(tax)
+else:
+    netsalary<20000
+    tax=0
+    print(tax)
