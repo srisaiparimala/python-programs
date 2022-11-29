@@ -1,0 +1,12 @@
+sno=9
+sname='prasu'
+group='mscsa'
+s1=78
+s2=67
+s3=79
+if s1>=35:
+    if s2>=35:
+        if s3>=35:
+            print('pass')
+else:
+    print('fail')
