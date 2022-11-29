@@ -1,0 +1,4 @@
+balance=5000
+n=int(input('enter amt to be created'))
+mb=balance+n
+print('main balance=',mb)
