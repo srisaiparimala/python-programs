@@ -1,0 +1,29 @@
+eggs=300
+milk=150
+rice=1000
+wc=250
+cheese=100
+phno=int(input('phone number:'))
+name=input('name:')
+address=input('address:')
+eq=int(input('egg unit:'))
+mq=int(input('milk units:'))
+rq=int(input('rice in kg:'))
+wq=int(input('whipped cream:'))
+cq=int(input('cheese:'))
+bill=(eggs*eq)+(milk*mq)+(rice*rq)+(wc*wq)+(cheese*cq)
+if bill>3000:
+    tax=(5/100)*bill
+elif bill>2000:
+    tax=(7/100)*bill
+elif bill>1000:
+    tax=(10/100)*bill
+elif bill>500:
+    tax=(15/100)*bill
+else:
+    tax=100
+print('customer no:',phno)
+print('name',name)
+print('tax=',tax)
+bill=tax+bill
+print('bill:',bill)
