@@ -1,0 +1,14 @@
+sno=int(input('service no:'))
+name=input('name:')
+units=int(input('units:'))
+if units>400:
+    bill=units*4
+elif units>250 and units<=400:
+    bill=units*3
+elif units>200 and units<=250:
+    bill=units*2.5
+elif units>100 and units<=200:
+    bill=units*2
+else:
+    bill=units*1
+print('bill=',bill)
