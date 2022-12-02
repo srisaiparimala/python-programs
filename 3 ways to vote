@@ -1,0 +1,34 @@
+def value(n):
+ if n>=18:
+     return True
+ else:
+      return False
+n=int(input())
+if value(n):
+    print('yes')
+else:
+    print('no')
+
+
+    *************
+
+
+
+def value(n):
+ if (n>=18):
+     print('yes')
+ else:
+     print('no')
+n=int(input())
+value(n)
+
+
+    *********
+
+n=int(input())
+if n>=18:
+    print('yes')
+else:
+    print('no')
+
+    ***********
