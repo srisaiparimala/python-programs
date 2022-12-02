@@ -1,0 +1,39 @@
+def values(a,b):
+ if (a>b):
+  print('a is big')
+ else:
+  print('b is big')
+a=int(input())
+b=int(input())
+values(a,b)
+
+
+
+   ****
+
+
+   
+def values(a,b):
+    if (a>b):
+        return a 
+    else:
+        return b 
+a=int(input())
+b=int(input())
+if values(a,b): 
+       print('a is big')
+else:
+       print('b is big')
+
+
+       
+    *****
+
+
+    
+a=int(input())
+b=int(input())
+if a>b:
+    print('a is big')
+else:
+    print('b is big')
